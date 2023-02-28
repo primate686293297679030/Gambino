@@ -55,6 +55,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
+            pointerOccupied = false;
             isThouching = false;
             Destroy(pointer);
         }

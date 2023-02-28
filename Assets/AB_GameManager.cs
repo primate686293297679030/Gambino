@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class AB_GameManager : MonoBehaviour
 {
-   public static bool star;
-   public static bool square;
+  
+    [SerializeField]GameObject conditionPlaceHolderA;
+    [SerializeField]GameObject conditionPlaceHolderB;
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
